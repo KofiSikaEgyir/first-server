@@ -1,0 +1,22 @@
+{
+  "name": "first-server",
+  "version": "1.0.0",
+  "description": "Woode server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "shop"
+  ],
+  "author": "Kofi Sika",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
